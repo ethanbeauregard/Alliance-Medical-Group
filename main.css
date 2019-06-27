@@ -86,11 +86,22 @@ header .cover .buttons a {
 	border-radius: 5px;
 }
 
-/* header .cover::after{
-		content: "";
-		clear: both;
-		display: table;
-} */
+header nav {
+	display: flex;
+	background: red;
+	padding: 10px;
+}
+
+header nav a { 
+	background: green;
+	text-decoration: none;
+	margin-left: 1px;
+	padding: 15px;
+}
+
+header nav a:visited {
+	color: black;
+}
 
 #page-container {
 	position: relative;
