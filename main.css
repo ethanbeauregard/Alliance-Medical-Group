@@ -62,15 +62,19 @@ header .cover {
 	justify-content: space-between;
 }
 
-header .cover img {
+header .cover .img-container {
 	width: 25%;
 	margin-left: 100px;
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
+header .cover .img-container img {
+	width: 325px;
+	height: auto;
+}
 
 header .cover .buttons {
-	width: 40%;
+	width: 45%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -79,18 +83,45 @@ header .cover .buttons {
 header .cover .buttons a {
 	background: #345CB5;
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 15px;
 	margin: 5px;
 	color: white;
 	padding: 10px 20px;
 	border-radius: 5px;
 }
 
-/* header .cover::after{
-		content: "";
-		clear: both;
-		display: table;
-} */
+header nav {
+	display: flex;
+	padding-left: 18%;
+}
+
+header nav a { 
+	text-decoration: none;
+	border-right: 1px solid white;
+	padding: 15px;
+	font-size: 14px;
+	color: #42396b;
+}
+
+header nav a:visited {
+	color: #42396b;
+}
+
+header nav a:hover {
+	transition: 0.3s; 
+	color: black;
+}
+
+header nav .search-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+}
+
+header nav .search-icon .fa-search {
+	font-size: 20px;
+}
 
 #page-container {
 	position: relative;
@@ -125,4 +156,9 @@ header .cover .buttons a {
 #footer .info a {
 	margin-left: 10px;
 	text-decoration: none;
+	color: #428bca;
+}
+
+#footer .info a:visited {
+	color: #428bca;
 }
