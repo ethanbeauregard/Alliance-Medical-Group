@@ -90,6 +90,7 @@ header nav {
 	display: flex;
 	background: red;
 	padding: 10px;
+	padding-left: 18%;
 }
 
 header nav a { 
@@ -97,10 +98,24 @@ header nav a {
 	text-decoration: none;
 	margin-left: 1px;
 	padding: 15px;
+	font-size: 14px;
 }
 
 header nav a:visited {
 	color: black;
+}
+
+header nav .search-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: pink;
+	width: 25%;
+}
+
+header nav .search-icon .fa-search {
+	background: cyan;
+	font-size: 20px;
 }
 
 #page-container {
