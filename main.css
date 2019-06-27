@@ -62,11 +62,15 @@ header .cover {
 	justify-content: space-between;
 }
 
-header .cover img {
+header .cover .img-container {
 	width: 25%;
 	margin-left: 100px;
 	margin-bottom: 30px;
 	margin-top: 30px;
+}
+header .cover .img-container img {
+	width: 325px;
+	height: auto;
 }
 
 header .cover .buttons {
