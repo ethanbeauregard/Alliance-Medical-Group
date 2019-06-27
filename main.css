@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: 'Lora', serif;
+}
 header {
 	background: #C8C4AB;
 }
@@ -91,4 +94,12 @@ header .cover .buttons a {
 
 footer {
 	background: #C8C4AB;
+}
+
+footer p {
+
+}
+
+footer a {
+
 }
