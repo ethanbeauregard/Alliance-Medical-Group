@@ -100,9 +100,14 @@ header nav a {
 	border-right: 1px solid white;
 	padding: 15px;
 	font-size: 14px;
+	color: #42396b;
 }
 
 header nav a:visited {
+	color: #42396b;
+}
+
+header nav a:hover {
 	color: black;
 }
 
