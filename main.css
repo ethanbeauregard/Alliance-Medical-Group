@@ -46,3 +46,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+header {
+	background: red;
+}
+
+header .cover {
+	border-top: 30px solid #C8C4AB; 
+	background: gray;	
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+header .cover img {
+	background: pink;
+	width: 20%;
+	margin-left: 100px;
+}
+
+header .cover .buttons {
+	background: yellow;
+	width: 30%;
+}
+
+/* header .cover::after{
+		content: "";
+		clear: both;
+		display: table;
+} */
+
+footer {
+	background: green;
+}
