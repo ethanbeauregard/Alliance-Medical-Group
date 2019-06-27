@@ -93,13 +93,30 @@ header .cover .buttons a {
 } */
 
 footer {
+	margin-top: 10px;
 	background: #C8C4AB;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 25px 0;
+	position: relative;
+	font-size: 0.75rem;	
 }
 
 footer p {
+	background: red;
+	width: 20%;
+	text-align: center;
+}
+
+footer .info {
+	background: cyan;
+	width: 30%;
+	text-align: center;
 
 }
 
-footer a {
-
+footer .info a {
+	background: green;
+	margin-left: 10px;
 }
