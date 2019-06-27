@@ -88,15 +88,12 @@ header .cover .buttons a {
 
 header nav {
 	display: flex;
-	background: red;
-	padding: 10px;
 	padding-left: 18%;
 }
 
 header nav a { 
-	background: green;
 	text-decoration: none;
-	margin-left: 1px;
+	border-right: 1px solid white;
 	padding: 15px;
 	font-size: 14px;
 }
@@ -109,12 +106,10 @@ header nav .search-icon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: pink;
 	width: 25%;
 }
 
 header nav .search-icon .fa-search {
-	background: cyan;
 	font-size: 20px;
 }
 
