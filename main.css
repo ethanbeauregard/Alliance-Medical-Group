@@ -125,4 +125,9 @@ header .cover .buttons a {
 #footer .info a {
 	margin-left: 10px;
 	text-decoration: none;
+	color: #428bca;
+}
+
+#footer .info a:visited {
+	color: #428bca;
 }
