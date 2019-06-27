@@ -48,26 +48,41 @@ table {
 }
 
 header {
-	background: red;
+	background: #C8C4AB;
 }
 
 header .cover {
 	border-top: 30px solid #C8C4AB; 
-	background: gray;	
+	background: white;	
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 }
 
 header .cover img {
-	background: pink;
 	width: 20%;
 	margin-left: 100px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 header .cover .buttons {
-	background: yellow;
+
+	background: brown;
 	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .cover .buttons a {
+	background: #345CB5;
+	text-decoration: none;
+	font-size: 1.3rem;
+	margin: 5px;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 /* header .cover::after{
@@ -77,5 +92,5 @@ header .cover .buttons {
 } */
 
 footer {
-	background: green;
+	background: #C8C4AB;
 }
