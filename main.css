@@ -92,31 +92,38 @@ header .cover .buttons a {
 		display: table;
 } */
 
-footer {
-	margin-top: 10px;
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap {
+	background: red;
+	padding-bottom: 50px;
+}
+
+#footer {
 	background: #C8C4AB;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	padding: 25px 0;
-	position: relative;
+	position: absolute;
+	bottom: 0;
 	font-size: 0.75rem;	
 }
 
-footer p {
-	background: red;
+#footer p {
 	width: 20%;
 	text-align: center;
 }
 
-footer .info {
-	background: cyan;
+#footer .info {
 	width: 30%;
 	text-align: center;
-
 }
 
-footer .info a {
-	background: green;
+#footer .info a {
 	margin-left: 10px;
+	text-decoration: none;
 }
